@@ -9,14 +9,17 @@ main.py: using ANN(2 hidden layers) + dropout(0.5), validation_split =0.1, epoch
 2) loss function? mse, mae, mape, msle (mean_squared_logarithmic_error),...
 
 "mae": <score = 0.1319>
+
 Epoch 100/100
 2160/2160 - loss: 0.3644 - msle: 0.0407 - val_loss: 0.3509 - val_msle: 0.0345
 
 "mse":
+
 Epoch 77/100
 2160/2160 - loss: 0.3035 - msle: 0.0360 - val_loss: 0.2240 - msle: 0.0267
 
 "mae": Using np.max !!! < score = 0.1140>
+
 Epoch 25/100
 2160/2160 - loss: 0.1985 - msle: 0.0161 - val_loss: 0.1384 - val_msle: 0.0092
 
