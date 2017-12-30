@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 import pre_processing
 
-x_train, y_train, test, m = pre_processing.load_data()
+test, m = pre_processing.load_test_data()
 model = load_model('weights-improvement-25-0.1985.hdf5')
 
 results = model.predict(test)
