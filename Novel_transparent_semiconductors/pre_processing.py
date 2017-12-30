@@ -2,7 +2,7 @@ import pandas as pd
 from pandas import Series, DataFrame
 import numpy as np
 
-def load_data():
+def load_train_data():
     #=======================================
     # training data
     #=======================================
@@ -24,9 +24,14 @@ def load_data():
     print(x_train[:2, :])
     print(y_train[:10, :])
     
+    print('='*10, 'loading data', '='*30)
+    return x_train, y_train, m
+
+def load_test_data():
     #=======================================
     # testing data
     #=======================================
+    m = 10
     print('='*40)
     df = pd.read_csv('test.csv', header=0)
     df = df.drop(['id', 'spacegroup'], axis = 1)
@@ -37,5 +42,4 @@ def load_data():
     print("test = ", test.shape)
     print('='*10, 'loading data', '='*30)
     
-    return x_train, y_train, test, m
-
+    return test, m
