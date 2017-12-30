@@ -5,7 +5,12 @@ from keras.models import load_model
 import pre_processing
 
 test, m = pre_processing.load_test_data()
-model = load_model('weights-improvement-25-0.1985.hdf5')
+model = load_model('weights-improvement-84-0.0982.hdf5')
+
+# if use cnn1 ===========
+test = np.expand_dims(test, axis=2)
+print(test.shape)
+# =======================
 
 results = model.predict(test)
 print("results = ", results.shape)
