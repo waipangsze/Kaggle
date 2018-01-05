@@ -41,6 +41,6 @@ Total params: 50,178
 Trainable params: 50,178
 Non-trainable params: 0
 
-"mae": Using np.max < score = >
+"mae": Using np.max < score = 0.0780>
 Epoch 84/100
 2160/2160- loss: 0.0982 - msle: 0.0069 - val_loss: 0.0893 - val_msle: 0.0049
