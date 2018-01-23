@@ -2,7 +2,8 @@ Nomad2018 Predicting Transparent Conductors: Predict the key properties of novel
 
 https://www.kaggle.com/c/nomad2018-predict-transparent-conductors#description
 
-1) using ANN(2 hidden layers) + dropout(0.5), validation_split =0.1, epochs=100, batch_size=50
+
+1. using ANN(2 hidden layers) + dropout(0.5), validation_split =0.1, epochs=100, batch_size=50
 
 loss function? mse, mae, mape, msle (mean_squared_logarithmic_error),...
 
@@ -23,23 +24,19 @@ Epoch 25/100
 
 2) using Conv1D:
 
-Layer (type)                 Output Shape              Param #   
+| Layer (type)              |   Output Shape  |            Param #   |
+|-------|---------|---------|
+|input_1 (InputLayer)     |    (None, 10, 1)      |       0   |      
+|conv1d_1 (Conv1D)          |  (None, 7, 128)        |    640       |
+|max_pooling1d_1 (MaxPooling1D) |(None, 3, 128)      |      0     |    
+|conv1d_2 (Conv1D)       |     (None, 1, 128)     |       49280    | 
+|global_average_pooling1d) |( (None, 128)       |        0     |    
+|dense_1 (Dense)        |      (None, 2)        |         258    |   
 
-input_1 (InputLayer)         (None, 10, 1)             0         
-
-conv1d_1 (Conv1D)            (None, 7, 128)            640       
-
-max_pooling1d_1 (MaxPooling1 (None, 3, 128)            0         
-
-conv1d_2 (Conv1D)            (None, 1, 128)            49280     
-
-global_average_pooling1d_1 ( (None, 128)               0         
-
-dense_1 (Dense)              (None, 2)                 258       
-
-Total params: 50,178
-Trainable params: 50,178
-Non-trainable params: 0
+|Total params: 50,178|
+|---------|
+|Trainable params: 50,178|
+|Non-trainable params: 0|
 
 "mae": Using np.max < score = 0.0780>
 Epoch 84/100
