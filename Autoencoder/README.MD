@@ -9,13 +9,18 @@ decoder.py: a fully connected network and save decoder model, training for a par
 
 Dataset: http://cis.jhu.edu/~sachin/digit/digit.html
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 Using:
 
-| physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:04:00.0, compute capability: 6.1) |
-| Epoch 300/300 |
-| 900/900 - 0s 42us/step - loss: 0.0236 - val_loss: 0.0302 |
-| time =  14.532356262207031  s |
-|--------------|
+- physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:04:00.0, compute capability: 6.1)
+Epoch 300/300 
+900/900 - 0s 42us/step - loss: 0.0236 - val_loss: 0.0302
+time =  14.532356262207031  s
+
 | Using 5000% CPU, Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz |
 | Epoch 300/300 |
 | 900/900 - 2s 2ms/step - loss: 0.0172 - val_loss: 0.0238 |
