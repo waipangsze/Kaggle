@@ -15,9 +15,9 @@ physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:04:00.0, compu
 
 Epoch 300/300
 
-900/900 [==============================] - 0s 42us/step - loss: 0.0153 - val_loss: 0.0248
+900/900 [==============================] - 0s 42us/step - loss: 0.0236 - val_loss: 0.0302
 
-time =  19.409785509109497  s
+time =  14.532356262207031  s 
 
 Using 5000% CPU, Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz 
 
