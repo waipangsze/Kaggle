@@ -13,7 +13,7 @@ Epoch 300/300 \
 900/900 - 0s 42us/step - loss: 0.0236 - val_loss: 0.0302\
 time =  14.532356262207031  s\
 
--Using 5000% CPU, Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz \
+- Using 5000% CPU, Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz \
 Epoch 300/300 \
 900/900 - 2s 2ms/step - loss: 0.0172 - val_loss: 0.0238 \
 time =  568.6107196807861  s \
