@@ -10,7 +10,10 @@ decoder.py: a fully connected network and save decoder model, training for a par
 Dataset: http://cis.jhu.edu/~sachin/digit/digit.html
 
 Using:
+
 physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:04:00.0, compute capability: 6.1)
 Epoch 300/300
+
 900/900 [==============================] - 0s 42us/step - loss: 0.0153 - val_loss: 0.0248
+
 time =  19.409785509109497  s
